@@ -3,7 +3,7 @@ export default function LandingPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-900 text-white">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Mits For Code</h1>
+        <h1 className="text-4xl font-bold mb-4">Mitts For Code</h1>
         <p className="text-xl text-gray-300 mb-8">
           A web to show apps made with Mits For Code
         </p>
