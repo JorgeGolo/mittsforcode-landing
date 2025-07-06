@@ -20,9 +20,9 @@ export default function LandingPage() {
         >
           Get it on Google Play
         </a>
-        <div className=" hidden mt-12">
+        <div className="mt-12">
           <a
-            href="/privacy-policy"
+            href="/mindrook/privacy-policy"
             className="text-gray-400 hover:text-white underline"
           >
             Privacy Policy
