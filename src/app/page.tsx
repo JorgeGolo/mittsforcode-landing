@@ -5,7 +5,7 @@ export default function LandingPage() {
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">Mitts For Code</h1>
         <p className="text-xl text-gray-300 mb-8">
-          A web to show apps made with Mits For Code
+          A web to show apps made with Mitts For Code
         </p>
         <hr className="mb-4 mt-4" />
         <h2 className="text-4xl font-bold mb-4">MindRook</h2>
@@ -30,5 +30,5 @@ export default function LandingPage() {
         </div>
       </div>
     </main>
-  );
+  )
 }
