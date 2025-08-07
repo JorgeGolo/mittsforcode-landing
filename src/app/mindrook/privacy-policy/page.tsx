@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
 export default function PrivacyPage() {
   return (
     <main className="w-full flex flex-col min-h-screen bg-gray-100 p-4 font-sans">
-      <div>
+      <div className="text-gray-800">
         <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
         <p className="mb-2">
           At <strong>JORGE GÓMEZ LÓPEZ</strong> (hereinafter, THE DEVELOPER),
@@ -11,8 +11,8 @@ export default function PrivacyPage() {
           de Santa María – (Cádiz) - Spain, and identification number (D.N.I.)
           75797320-S, we take our users privacy very seriously. This privacy
           policy explains how we manage information through our mobile
-          application <strong>MINDROOK</strong> (hereinafter, THE
-          APPLICATION) and our website (hereinafter, THE WEBSITE).
+          application <strong>MINDROOK</strong> (hereinafter, THE APPLICATION)
+          and our website (hereinafter, THE WEBSITE).
         </p>
         <h2 className="text-2xl font-bold mb-2">
           1. Information We Collect and Share
@@ -55,7 +55,7 @@ export default function PrivacyPage() {
           This data is used by Google for the following purposes: Advertising or
           marketing, Analytics, and App functionality. We, THE DEVELOPER, do not
           store this information on our servers. For more information on how
-          Google manages data in its advertising products, you can visit{" "}
+          Google manages data in its advertising products, you can visit{' '}
           <a
             className="text-blue-600"
             href="https://policies.google.com/technologies/ads"
@@ -119,10 +119,10 @@ export default function PrivacyPage() {
         <p className="mb-2">
           If you have any questions or need to clarify any point about this
           privacy policy, please do not hesitate to contact THE DEVELOPER via
-          email at{" "}
+          email at{' '}
           <a href="mailto:jorgelogomez@gmail.com">jorgelogomez@gmail.com</a>
         </p>
       </div>
     </main>
-  );
+  )
 }
