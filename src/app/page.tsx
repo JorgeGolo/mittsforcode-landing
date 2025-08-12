@@ -1,4 +1,7 @@
 // src/app/page.tsx
+
+import { FaReddit } from 'react-icons/fa'
+
 export default function LandingPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-900 text-white">
@@ -24,7 +27,7 @@ export default function LandingPage() {
           </p>
           <a
             href="https://play.google.com/store/apps/details?id=com.owldotask.chesspuzzles" // <-- CAMBIA ESTO POR TU URL REAL DE LA APP
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors mb-8 block"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors mb-4 block"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -32,10 +35,10 @@ export default function LandingPage() {
           </a>
           <div className="">
             <a
-              href=""
-              className="text-gray-400 hover:text-white underline mr-4"
+              href="https://www.reddit.com/r/mindrook/"
+              className="text-gray-400 hover:text-white underline mb-4 block"
             >
-              Info
+              <FaReddit size={42} className="w-full" />
             </a>
             <a
               href="/mindrook/privacy-policy"
