@@ -1,6 +1,5 @@
 // src/app/page.tsx
-
-import { FaReddit } from 'react-icons/fa'
+import { FaTwitter, FaMastodon } from 'react-icons/fa'
 
 export default function LandingPage() {
   return (
@@ -15,7 +14,24 @@ export default function LandingPage() {
         <p className="text-xl text-gray-300 mb-8">
           A web to show apps made by Mitts For Code
         </p>
-        <hr className="mb-4 mt-4" />
+        <div className="flex justify-center space-x-4 mb-4">
+          <a
+            href="https://twitter.com/https://x.com/mittsforcode"
+            className="text-gray-400 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter size={42} />
+          </a>
+          <a
+            href="https://mastodon.social/@mittsforcode"
+            className="text-gray-400 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaMastodon size={42} />
+          </a>
+        </div>
         <div className="bg-gray-700 rounded-lg p-4">
           <img
             src="/assets/mindrook/logo.png"
@@ -33,13 +49,7 @@ export default function LandingPage() {
           >
             Get it on Google Play
           </a>
-          <div className="">
-            <a
-              href="https://www.reddit.com/r/mindrook/"
-              className="text-gray-400 hover:text-white underline mb-4 block"
-            >
-              <FaReddit size={42} className="w-full" />
-            </a>
+          <div className="flex justify-center space-x-4">
             <a
               href="/mindrook/privacy-policy"
               className="text-gray-400 hover:text-white underline"
