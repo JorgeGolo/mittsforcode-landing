@@ -12,7 +12,7 @@ export default function LandingPage() {
         />
         <h1 className="text-4xl font-bold mb-4">Mitts For Code</h1>
         <p className="text-xl text-gray-300 mb-8">
-          A web to show apps made by Mitts For Code
+          A web to show proyects coded with mitts
         </p>
         <div className="flex justify-center space-x-4 mb-4">
           <a
@@ -59,6 +59,16 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      <footer className="mt-12 text-center text-sm text-gray-500">
+        <p>
+          &copy; {new Date().getFullYear()} Mitts For Code. All Rights Reserved.
+        </p>
+        <p className="mt-2">
+          <a href="/privacy-policy" className="hover:underline">
+            Privacy Policy
+          </a>
+        </p>
+      </footer>
     </main>
   )
 }
