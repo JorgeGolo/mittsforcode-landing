@@ -13,8 +13,8 @@ export default function PrivacyDand() {
         </p>
 
         <p className="mb-4">
-          This privacy policy explains how <strong>dand-social</strong> ("the
-          Application") handles information when you connect your social media
+          This privacy policy explains how <strong>dand-social</strong> (the
+          Application) handles information when you connect your social media
           accounts and use our services. Your privacy is taken very seriously.
         </p>
 
@@ -37,7 +37,7 @@ export default function PrivacyDand() {
         <ul className="list-disc list-inside mb-2 space-y-1 pl-4">
           <li>
             <strong>Storage:</strong> These tokens are stored exclusively in
-            your browser's <strong>localStorage</strong>. They are never
+            your browser&apos;s <strong>localStorage</strong>. They are never
             transmitted to or stored on our servers. This design ensures that
             only you have access to your connection credentials.
           </li>
@@ -53,7 +53,7 @@ export default function PrivacyDand() {
         </h3>
         <p className="mb-2">
           All application data, including the profiles you create, your AI
-          prompts, and other settings, are also stored in your browser's{' '}
+          prompts, and other settings, are also stored in your browser&apos;s{' '}
           <strong>localStorage</strong>. We do not have access to this
           information.
         </p>
@@ -113,7 +113,9 @@ export default function PrivacyDand() {
           device protected.
         </p>
 
-        <h2 className="text-2xl font-bold mt-6 mb-2">4. Children's Privacy</h2>
+        <h2 className="text-2xl font-bold mt-6 mb-2">
+          4. Children&apos;s Privacy
+        </h2>
         <p className="mb-2">
           Our service is not intended for children under the age of 13. We do
           not knowingly collect any personal information.

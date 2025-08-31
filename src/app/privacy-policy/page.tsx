@@ -11,8 +11,8 @@ export default function PrivacyPrincipal() {
           At <strong>JORGE GÓMEZ LÓPEZ</strong> (hereinafter, THE DEVELOPER),
           with registered address at Calle San Francisco, nº 9 – 11500 El Puerto
           de Santa María – (Cádiz) - Spain, and identification number (D.N.I.)
-          75797320-S, we take our users' privacy very seriously. This privacy
-          policy describes how information is managed on this website
+          75797320-S, we take our users&apos; privacy very seriously. This
+          privacy policy describes how information is managed on this website
           (hereinafter, THE WEBSITE) and in the software we develop.
         </p>
 
