@@ -1,22 +1,28 @@
 // src/app/page.tsx
+
 import { FaTwitter, FaMastodon } from 'react-icons/fa'
+import { ProjectCard } from './components/ProjectCard'
+import { PROJECTS } from './data/projects'
+import Image from 'next/image'
 
 export default function LandingPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-900 text-white">
-      <div className="text-center">
-        <img
+      <div className="text-center max-w-4xl w-full">
+        <Image
           src="/assets/logo.svg"
           alt="Mitts For Code Logo"
-          className="mx-auto mb-8 h-40" // La clase 'mx-auto' de Tailwind CSS centra el elemento
+          width={160}
+          height={160}
+          className="mx-auto mb-8"
         />
         <h1 className="text-4xl font-bold mb-4">Mitts For Code</h1>
         <p className="text-xl text-gray-300 mb-8">
-          A web to show proyects coded with mitts
+          Projects coded with mitts and ♥
         </p>
-        <div className="flex justify-center space-x-4 mb-4">
+        <div className="flex justify-center space-x-4 mb-12">
           <a
-            href="https://twitter.com/https://x.com/mittsforcode"
+            href="https://x.com/mittsforcode"
             className="text-gray-400 hover:text-white"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,31 +38,12 @@ export default function LandingPage() {
             <FaMastodon size={42} />
           </a>
         </div>
-        <div className="bg-gray-700 rounded-lg p-4">
-          <img
-            src="/assets/mindrook/logo.png"
-            alt="Mitts For Code Logo"
-            className="mx-auto mb-8 " // La clase 'mx-auto' de Tailwind CSS centra el elemento
-          />{' '}
-          <p className="text-xl text-gray-300 mb-8">
-            Sharpen your tactical vision with chess puzzles
-          </p>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.owldotask.chesspuzzles" // <-- CAMBIA ESTO POR TU URL REAL DE LA APP
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors mb-4 block"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get it on Google Play
-          </a>
-          <div className="flex justify-center space-x-4">
-            <a
-              href="/mindrook/privacy-policy"
-              className="text-gray-400 hover:text-white underline"
-            >
-              Privacy Policy
-            </a>
-          </div>
+
+        {/* Sección de Proyectos */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {PROJECTS.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
         </div>
       </div>
       <footer className="mt-12 text-center text-sm text-gray-500">
