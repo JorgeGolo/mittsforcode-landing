@@ -1,9 +1,16 @@
 // src/app/page.tsx
 
-import { FaTwitter, FaMastodon } from 'react-icons/fa'
+import {
+  FaTwitter,
+  FaMastodon,
+  FaFacebook,
+  FaInstagram,
+  FaReddit,
+} from 'react-icons/fa'
 import { ProjectCard } from './components/ProjectCard'
 import { PROJECTS } from './data/projects'
 import Image from 'next/image'
+import { SiBluesky } from 'react-icons/si'
 
 export default function LandingPage() {
   return (
@@ -29,6 +36,15 @@ export default function LandingPage() {
           >
             <FaTwitter size={42} />
           </a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61559275910660"
+            className="text-gray-400 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook size={42} />
+          </a>
           <a
             href="https://mastodon.social/@mittsforcode"
             className="text-gray-400 hover:text-white"
@@ -36,6 +52,30 @@ export default function LandingPage() {
             rel="noopener noreferrer"
           >
             <FaMastodon size={42} />
+          </a>
+          <a
+            href="https://bsky.app/profile/mittsforcode.bsky.social"
+            className="text-gray-400 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiBluesky size={42} />
+          </a>
+          <a
+            href="https://www.reddit.com/user/Owldotask/"
+            className="text-gray-400 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaReddit size={42} />
+          </a>
+          <a
+            href="https://www.instagram.com/mittsforcode/"
+            className="text-gray-400 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram size={42} />
           </a>
         </div>
 
