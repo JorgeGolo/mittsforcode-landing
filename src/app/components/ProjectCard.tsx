@@ -13,8 +13,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <Image
             src={project.logoUrl}
             alt={`${project.name} Logo`}
-            width={150}
-            height={150}
+            width={project.logoWidth}
+            height={project.logoHeight}
           />
         )}
       </div>

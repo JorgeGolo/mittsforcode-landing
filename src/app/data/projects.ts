@@ -10,6 +10,8 @@ export interface Project {
   textOnButton: string
   projectState?: string
   documentationLink?: string
+  logoWidth?: number
+  logoHeight?: number
 }
 
 export const PROJECTS: Project[] = [
@@ -25,6 +27,8 @@ export const PROJECTS: Project[] = [
     textOnButton: 'Get it on Google Play',
     projectState: 'Production',
     documentationLink: '/mindrook/info',
+    logoWidth: 150,
+    logoHeight: 150,
   },
 
   {
@@ -38,7 +42,44 @@ export const PROJECTS: Project[] = [
     textOnButton: 'Visit website',
     projectState: 'Developing',
     documentationLink: '/megapost/info',
+    logoWidth: 150,
+    logoHeight: 150,
   },
+
+  {
+    id: 'owldotask',
+    name: 'owldotask.es',
+    logoUrl: '/assets/owldotask/owldotask-logo.png',
+    description:
+      'React website deployed in AWS with a Laravel backend focused in gamification and rewards',
+    storeUrl: 'https://owldotask.com',
+    privacyPolicyUrl: 'https://owldotask.com/privacypolicy',
+    textOnButton: 'Visit website',
+    projectState: 'Developing',
+    documentationLink:
+      'https://docs.google.com/document/d/1zg5Dw3jjZZj0TLfnhMIGlS9Themo0GZw--I4scQoUkQ/edit?usp=sharing',
+    logoWidth: 150,
+    logoHeight: 150,
+  },
+
+  {
+    id: 'smartmetadesc',
+    name: 'Smart Meta Desc',
+    logoUrl: '/assets/smd/smd-logo.png',
+    description:
+      'Smart Meta Desc: Wordpress plugin to manages meta description posts and generate them with AI',
+    storeUrl: 'https://es.wordpress.org/plugins/smartmetadesc/',
+    privacyPolicyUrl: 'https://owldotask.com/privacypolicy',
+    textOnButton: 'Get the plugin at Wordpress.org',
+    projectState: 'Production',
+    documentationLink:
+      'https://es.wordpress.org/plugins/smartmetadesc/#description',
+    logoWidth: 80,
+    logoHeight: 80,
+  },
+
+  // https://docs.google.com/document/d/1zg5Dw3jjZZj0TLfnhMIGlS9Themo0GZw--I4scQoUkQ/edit?usp=sharing
+
   // Para agregar otro proyecto, simplemente añade otro objeto aquí.
   // {
   //   id: 'new-project',
