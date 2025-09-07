@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     description:
       'React website with a powerfull tool to publish on multiple social profiles',
     storeUrl: 'https://www.megapost.es',
-    privacyPolicyUrl: 'https://www.megaspost.es/privacy-policy',
+    privacyPolicyUrl: 'https://www.megapost.es/privacy',
     textOnButton: 'Visit website',
     projectState: 'Developing',
     documentationLink: '/megapost/info',
@@ -67,7 +67,7 @@ export const PROJECTS: Project[] = [
     name: 'Smart Meta Desc',
     logoUrl: '/assets/smd/smd-logo.png',
     description:
-      'Smart Meta Desc: Wordpress plugin to manages meta description posts and generate them with AI',
+      'Smart Meta Desc: Wordpress plugin to manages posts meta descriptions and generate them with AI',
     storeUrl: 'https://es.wordpress.org/plugins/smartmetadesc/',
     privacyPolicyUrl: 'https://owldotask.com/privacypolicy',
     textOnButton: 'Get the plugin at Wordpress.org',
