@@ -41,7 +41,8 @@ export const PROJECTS: Project[] = [
     privacyPolicyUrl: 'https://www.megapost.es/privacy',
     textOnButton: 'Visit website',
     projectState: 'Developing',
-    documentationLink: '/megapost/info',
+    documentationLink:
+      'https://docs.google.com/document/d/1TtV_RO7SZSJiN8_c-q7gQoEcdqtRuL6lQ2r_dmEEX8k/edit?usp=sharing',
     logoWidth: 150,
     logoHeight: 150,
   },
